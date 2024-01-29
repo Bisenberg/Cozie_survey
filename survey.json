@@ -1,0 +1,69 @@
+{
+    "survey_name": "Sleep survey",
+    "survey_id": "sleep_survey",
+    "survey": [{
+        "question": "How did you sleep?",
+        "question_id": "q_thermal",
+        "response_options": [{
+            "text": "Badly",
+            "icon": "emoticon_sad",
+            "icon_background_color": "#F1A62E",
+            "use_sf_symbols": false,
+            "sf_symbols_color": "#000000",
+            "next_question_id": "sad_why"
+          },
+          {
+            "text": "Neutral",
+            "icon": "emoticon_neutral",
+            "icon_background_color": "#F1A62E",
+            "use_sf_symbols": false,
+            "sf_symbols_color": "#000000"
+          },
+          {
+            "text": "Well",
+            "icon": "emoticon_happy",
+            "icon_background_color": "#F1A62E",
+            "use_sf_symbols": true,
+            "sf_symbols_color": "#FF0000"
+          }
+        ]
+      },
+        {
+        "question": "Are you unhappy with:",
+        "question_id": "sad_why",
+        "response_options": [{
+            "text": "Temperature",
+            "icon": "thermometer",
+            "icon_background_color": "#F1A62E",
+            "use_sf_symbols": false,
+            "sf_symbols_color": "#000000",
+            "next_question_id": "q_location"
+        },
+        {
+            "text": "Light levels",
+            "icon": "emoticon_happy",
+            "icon_background_color": "#F1A62E",
+            "use_sf_symbols": false,
+            "sf_symbols_color": "#000000",
+            "next_question_id": "q_location"
+        },
+        {
+            "text": "Noise",
+            "icon": "person_noise_laptop",
+            "icon_background_color": "#F1A62E",
+            "use_sf_symbols": true,
+            "sf_symbols_color": "#FF0000",
+            "next_question_id": "q_location"
+        },
+        {
+            "text": "Humidity",
+            "icon": "snowflake",
+            "icon_background_color": "#F1A62E",
+            "use_sf_symbols": true,
+            "sf_symbols_color": "#FF0000",
+            "next_question_id": "q_location"
+        }
+    ]
+    }
+]
+}
