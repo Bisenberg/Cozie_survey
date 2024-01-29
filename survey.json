@@ -9,8 +9,7 @@
             "icon": "emoticon_sad",
             "icon_background_color": "#F1A62E",
             "use_sf_symbols": false,
-            "sf_symbols_color": "#000000",
-            "next_question_id": "sad_why"
+            "sf_symbols_color": "#000000"
           },
           {
             "text": "Neutral",
