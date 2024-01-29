@@ -9,21 +9,24 @@
             "icon": "emoticon_sad",
             "icon_background_color": "#F1A62E",
             "use_sf_symbols": false,
-            "sf_symbols_color": "#000000"
+            "sf_symbols_color": "#000000",
+            "next_question_id": ""
           },
           {
             "text": "Neutral",
             "icon": "emoticon_neutral",
             "icon_background_color": "#F1A62E",
             "use_sf_symbols": false,
-            "sf_symbols_color": "#000000"
+            "sf_symbols_color": "#000000",
+            "next_question_id": ""
           },
           {
             "text": "Well",
             "icon": "emoticon_happy",
             "icon_background_color": "#F1A62E",
             "use_sf_symbols": true,
-            "sf_symbols_color": "#FF0000"
+            "sf_symbols_color": "#FF0000",
+            "next_question_id": ""
           }
         ]
       }
