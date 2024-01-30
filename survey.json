@@ -24,9 +24,10 @@
             "text": "Well",
             "icon": "emoticon_happy",
             "icon_background_color": "#F1A62E",
-            "use_sf_symbols": true,
-            "sf_symbols_color": "#FF0000",
+            "use_sf_symbols": false,
+            "sf_symbols_color": "#000000",
             "next_question_id": ""
+              
           }
         ]
       },
