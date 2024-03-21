@@ -53,7 +53,7 @@
             "text": "Other",
             "icon": "sun",
             "icon_background_color": "#F1A62E",
-            "use_sf_symbols": true,
+            "use_sf_symbols": false,
             "sf_symbols_color": "#FF0000",
             "next_question_id": ""
           }
@@ -75,7 +75,7 @@
               "text": "Warmer",
               "icon": "flame.fill",
               "icon_background_color": "#F1A62E",
-              "use_sf_symbols": true,
+              "use_sf_symbols": false,
               "sf_symbols_color": "#FF0000",
               "next_question_id": ""
             }
@@ -96,7 +96,7 @@
               "text": "Louder",
               "icon": "noise_indoor",
               "icon_background_color": "#F1A62E",
-              "use_sf_symbols": true,
+              "use_sf_symbols": false,
               "sf_symbols_color": "#FF0000",
               "next_question_id": ""
             }
