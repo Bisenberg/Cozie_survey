@@ -1,0 +1,113 @@
+{
+    "survey_name": "Unitutkimus",
+    "survey_id": "sleep_survey",
+    "survey": [{
+        "question": "Miten nukuit?",
+        "question_id": "q_thermal",
+        "response_options": [{
+            "text": "Huonosti",
+            "icon": "emoticon_sad",
+            "icon_background_color": "#F1A62E",
+            "use_sf_symbols": false,
+            "sf_symbols_color": "#000000",
+            "next_question_id": "sad_why"
+          },
+          {
+            "text": "Kohtalaisesti",
+            "icon": "emoticon_neutral",
+            "icon_background_color": "#F1A62E",
+            "use_sf_symbols": false,
+            "sf_symbols_color": "#000000",
+            "next_question_id": ""
+          },
+          {
+            "text": "Hyvin",
+            "icon": "emoticon_happy",
+            "icon_background_color": "#F1A62E",
+            "use_sf_symbols": true,
+            "sf_symbols_color": "#FF0000",
+            "next_question_id": ""
+          }
+        ]
+      },
+      {
+        "question": "Oletko tyytymätön:",
+        "question_id": "sad_why",
+        "response_options": [{
+            "text": "Lämpötilaan",
+            "icon": "thermometer",
+            "icon_background_color": "#F1A62E",
+            "use_sf_symbols": false,
+            "sf_symbols_color": "#000000",
+            "next_question_id": "temp_why"
+        },
+        {
+            "text": "Meluun",
+            "icon": "person_noise_laptop",
+            "icon_background_color": "#F1A62E",
+            "use_sf_symbols": true,
+            "sf_symbols_color": "#FF0000",
+            "next_question_id": "noise_why"
+          }
+         ]
+        },
+        {
+          "question": "Miten haluaisit muuttaa lämpötilaa?",
+          "question_id": "temp_why",
+          "response_options": [{
+              "text": "Viileämmäksi",
+              "icon": "snowflake",
+              "icon_background_color": "#F1A62E",
+              "use_sf_symbols": false,
+              "sf_symbols_color": "#000000",
+              "next_question_id": ""
+            },
+            {
+              "text": "Ei mielipidettä",
+              "icon": "emoticon_happy",
+              "icon_background_color": "#F1A62E",
+              "use_sf_symbols": false,
+              "sf_symbols_color": "#000000",
+              "next_question_id": ""
+            },
+            {
+              "text": "Lämpimämmäksi",
+              "icon": "flame.fill",
+              "icon_background_color": "#F1A62E",
+              "use_sf_symbols": true,
+              "sf_symbols_color": "#FF0000",
+              "next_question_id": ""
+            }
+          ]
+        },
+        {
+          "question": "Kuinka haluaisit muuttaa melutasoa?",
+          "question_id": "noise_why",
+          "response_options": [{
+              "text": "Hiljaisemmaksi",
+              "icon": "earphones_on_ear_noise_cancelling",
+              "icon_background_color": "#F1A62E",
+              "use_sf_symbols": false,
+              "sf_symbols_color": "#000000",
+              "next_question_id": ""
+            },
+            {
+              "text": "Ei mielipidettä",
+              "icon": "emoticon_happy",
+              "icon_background_color": "#F1A62E",
+              "use_sf_symbols": false,
+              "sf_symbols_color": "#000000",
+              "next_question_id": ""
+            },
+            {
+              "text": "Äänekkäämmäksi",
+              "icon": "noise_indoor",
+              "icon_background_color": "#F1A62E",
+              "use_sf_symbols": true,
+              "sf_symbols_color": "#FF0000",
+              "next_question_id": ""
+            }
+          ]
+      }
+  ]
+}
