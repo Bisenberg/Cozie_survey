@@ -43,14 +43,23 @@
         },
         {
             "text": "Meluun",
-            "icon": "person_noise_laptop",
+            "icon": "speaker_mute",
             "icon_background_color": "#F1A62E",
             "use_sf_symbols": true,
             "sf_symbols_color": "#FF0000",
             "next_question_id": "noise_why"
+          },
+          {
+            "text": "Muuhun",
+            "icon": "sun",
+            "icon_background_color": "#F1A62E",
+            "use_sf_symbols": true,
+            "sf_symbols_color": "#FF0000",
+            "next_question_id": ""
           }
          ]
         },
+
         {
           "question": "Miten haluaisit muuttaa lämpötilaa?",
           "question_id": "temp_why",
@@ -85,7 +94,7 @@
           "question_id": "noise_why",
           "response_options": [{
               "text": "Hiljaisemmaksi",
-              "icon": "earphones_on_ear_noise_cancelling",
+              "icon": "speaker_mute",
               "icon_background_color": "#F1A62E",
               "use_sf_symbols": false,
               "sf_symbols_color": "#000000",
