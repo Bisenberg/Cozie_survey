@@ -1,5 +1,5 @@
 {
-    "survey_name": "Unitutkimus",
+    "survey_name": "Unikysely",
     "survey_id": "sleep_survey",
     "survey": [{
         "question": "Miten nukuit?",
