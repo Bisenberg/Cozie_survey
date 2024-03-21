@@ -48,6 +48,8 @@
             "use_sf_symbols": true,
             "sf_symbols_color": "#FF0000",
             "next_question_id": "noise_why"
+          }
+         ]
         },
         {
           "question": "How would you like the temperature to be?",
@@ -106,8 +108,6 @@
               "next_question_id": ""
             }
           ]
-        }
-      ]
-    }
+      }
   ]
 }
