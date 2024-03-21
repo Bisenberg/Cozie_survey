@@ -24,7 +24,7 @@
             "text": "Well",
             "icon": "emoticon_happy",
             "icon_background_color": "#F1A62E",
-            "use_sf_symbols": true,
+            "use_sf_symbols": false,
             "sf_symbols_color": "#FF0000",
             "next_question_id": ""
           }
@@ -45,7 +45,7 @@
             "text": "Noise",
             "icon": "speaker_mute",
             "icon_background_color": "#F1A62E",
-            "use_sf_symbols": true,
+            "use_sf_symbols": false,
             "sf_symbols_color": "#FF0000",
             "next_question_id": "noise_why"
           },
